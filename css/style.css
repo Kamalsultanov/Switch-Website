@@ -1,0 +1,304 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(../img/headerbg.jpg) center/cover fixed;
+    height: 100vh;
+    text-align: center;
+}
+#menu{ padding: 10px;}
+#menu li a{
+    font: bold 1em 'Proxima Nova';
+    color: #fff;
+}
+#searchtab{
+    display: flex;
+    justify-content: center;
+}
+#searchtab input{
+    height: 28px;
+    background: #ffffffcd;
+    padding: 6px 15px;
+    border-radius: 15px 0 0 15px;
+}
+#searchtab button{
+    height: 28px;
+    background: #ffffffcd;
+    padding: 6px 15px;
+    border-radius: 0 15px 15px 0;
+}
+#title{ 
+    text-transform: uppercase;
+    text-align: center;
+}
+#title h1{
+    font: 700 1.9em Montserrat;
+    color: #fff;
+}
+#title button{
+    margin-top: 20px;
+    background: #53d153;
+    color: #fff;
+    height: 48px;
+    width: 208px;
+    border-radius: 25px;
+    font: 1.4em "Proxima Nova";
+}
+#scrolldown button{
+    background-color: #ffffffcd;
+    border-radius: 10px;
+    height: 26px;
+    width: 120px;
+    font-size: 300 1em "Proxima Nova";
+    color: #111;
+    text-align: center;
+}
+
+/*    -                   ------ MAIN --------                 */
+
+main div{ text-align: center;
+    padding: 50px 0;}
+main div h2{
+    font: 300 1.4em Montserrat;
+    color: #8a8989;
+}
+main div h4{ font: 300 1em "Open Sans";}
+main div hr{ background-color: #818181;
+            width: 43px;
+            height: 2px;
+            margin: 20px auto;
+}
+#art3{ padding: 20px 15px;}
+#art3 article {padding: 30px;}
+#art3 i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 28px;
+    background: #e0f3e0;
+    color: #54d154;
+    font-size: 4.8em;
+}
+#art3 p {
+    font: 1em Montserrat;
+    color: #828181;
+    padding: 0 0 20px 0
+}
+#art3 button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: #54d154;
+    font: 1.1em 'Proxima Nova';
+    color: #fff
+}
+#art3 h3{ 
+    font: bold 1.5em 'Proxima Nova';
+    color: #828181;
+    padding: 20px;
+}
+#btn3 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0}
+#btn3 button{
+    height: 33px;
+    border: 1px solid #2b9b2b;
+    font: 1em 'Proxima Nova';
+    padding: 5px 10px
+}
+#btn3 button:first-child {
+    border-radius: 17px 0 0  17px;
+}
+#btn3 button:last-child {
+    border-radius: 0 17px 17px 0;
+}
+#btn3 button:hover, #btn3 button.active {
+    background-color: #2b9b2b;
+    color: #fff
+}
+#gallery img {
+    width: 100%;
+    margin:5px 0;
+}
+#comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#comment p{ font:1em "Proxima Nova";color: #444444; }
+#comment i{ padding:20px; color:#dfdfdf; font-size: 30px;}
+#herp{ display: flex;
+        justify-content: center;
+    }
+#companies {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+#companies span {
+        height: 150px;
+        width: 200px;
+        padding: 20px;
+}
+#test button { background-color: #dddcdc; color: #a59d9d; font: 1.2em "Proxima Nova";}
+
+.column{ display: inline-flex;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+}
+.column hr{ width:2px;
+        height: 77px;
+        border:solid #1f7b1f 2px;
+    }
+.tab {
+    width: 80px;
+    background-color: #c5e9c5;
+    padding: 5px;
+    border-radius: 30px;
+}
+#greenpart { background: #3eba3e;}
+.fa-dribbble{ color: #e94b89}
+.fa-square-behance{ color: #0061ff}
+.fa-twitter{ color: #00abed}
+
+ 
+/* -----------------------------------FOOTER ---------------------------------*/
+#ftrow{ padding: 30px;}
+.col33{
+    text-align: center;
+    margin-top: 30px;
+}
+.col33 h2{ 
+    font: 300 1em Montserrat;
+}
+.col33 hr{
+            background-color: #818181;
+            width: 43px;
+            height: 2px;
+            margin: 20px auto;
+}
+.col33 p{ 
+    font: 300 1em "Proxima Nova"; padding-bottom:20px;
+    color: #afafaf;
+}
+.col33 .tab { margin: auto;}
+
+.postpart { 
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.postpart img { width: 55px;
+                height: 55px;
+                object-fit: cover;
+                margin-right: 10px;
+}
+.postpart div p { 
+    font: 300 1em "Montserrat";
+}
+.postpart div .tag { 
+        padding: 5px;
+        background: #53d153;
+        border-radius: 5px;
+        }
+#address { 
+    color: #afafaf;
+    padding-bottom: 10px;
+}
+#address h5{font-weight: 200; 
+}
+#contact input,  textarea{
+    width: 100%;
+    background: #444;
+    color: #6a6a6a;
+    padding: 5px 10px;
+    margin: 2px 0;
+}
+#contact textarea { height: 120px;}
+#contact button { 
+        width: 100%;
+        background: #2b9b2b;
+        padding: 10px 0;
+}
+#end { display: flex;
+    flex-direction: column;
+    background-color: #212121;
+    width: 100%;
+}
+#end img {padding: 20px; }
+
+/* Classes For  Reuse */
+.bgwhite{ background-color: #fff;}
+.bggreen{  background-color: #54d154;}
+.bggreendark{ background-color: #2b9b2b;}
+.bggray{ background-color: #f2f1f1;}
+.bgdark{ background-color: #333333;}
+.bgorange { background-color: #ffba00 !important} 
+.bgblue { background-color: #089cea !important} 
+.bgred { background-color: #f34c03 !important} 
+.txtgreen{ color: #207b20}
+.txtwhite{ color: #fff}
+.buttons{ height: 40px; 
+    width: 180px; 
+    border-radius: 25px;}
+.txtfont{ font: 1.1em "Proxima Nova";;}
+.txtfontProxima{ font: 300 1em "Proxima Nova"}
+.txtfontMont{font: 300 0.7em "Montserrat";}
+
+/*Desktop Version*/
+@media only screen and (min-width: 768px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    #menu {
+         display: flex;
+         order: -1;
+    }
+    #menu li { padding: 0 10px; }
+    #menu li a {
+        display: inline-block;
+        padding: 5px 0;
+
+    }
+    #menu li a:hover, #menu li a.active { 
+        border-top: 5px solid #53d153}
+    #art3 { display: flex; }
+    #gallery  {
+        max-width: 980px;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #gallery img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        margin: 15px
+    }
+    #companies {
+        max-width: 980px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    #companies span{ align-content: center;}
+    #ftrow{ display: flex;
+    flex-direction: row;}
+    .col33 { width: 33%;}
+    #aboutus p{ padding: 20px 80px;}
+    #end { display: flex;
+        flex-direction: row ;
+        justify-content: space-around;
+    }
+}
